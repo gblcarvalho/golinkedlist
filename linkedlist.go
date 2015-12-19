@@ -46,7 +46,7 @@ func (ll *LinkedList) show () {
 
     for curr_node != nil {
         fmt.Println(curr_node.value)
-		curr_node = curr_node.next
+        curr_node = curr_node.next
     }
 }
 
